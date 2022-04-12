@@ -33,8 +33,7 @@
 
 .sm-footer{
     background-color: rgb(94, 94, 255);
-    color: black;
-    
+    color: black;   
 }
 
 .rodape a{
@@ -54,4 +53,8 @@
     align-content: column;
     display: table-cell;
     margin-bottom: 5px;
+}
+
+.rodape-click{
+    margin-bottom: 0;
 }

@@ -1,0 +1,57 @@
+.body{
+    font-family: Georgia, 'Times New Roman', 'Roboto Slab', Times, serif;
+}
+
+.navbar{
+    background-color: rgb(254, 184, 89);
+}
+
+.nav-link{
+    color: orange;
+}
+
+.logo{
+    margin-left: 10px;
+}
+
+.nosso-produto{
+    background: rgba(255, 165, 38, 0.715);
+}
+
+.margin{
+    padding-top: 50px;
+    padding-bottom: 50px ;
+}
+
+.contatos{
+    background: rgba(255, 165, 38, 0.715);
+}
+
+.geleia{
+    background: rgba(255, 165, 38, 0.715);
+}
+
+.sm-footer{
+    background-color: rgb(94, 94, 255);
+    color: black;
+    
+}
+
+.rodape a{
+    color:black;
+}
+
+.dropdown-link{
+    color: wheat;
+}
+
+.fonte-logo{
+    font-family: 'Roboto Slab', serif;
+}
+
+.card{
+    justify-content: center;
+    align-content: column;
+    display: table-cell;
+    margin-bottom: 5px;
+}

@@ -53,6 +53,7 @@
     align-content: column;
     display: table-cell;
     margin-bottom: 5px;
+    border-color: black;
 }
 
 .rodape-click{

@@ -4,6 +4,7 @@
 
 .navbar{
     background-color: rgb(254, 184, 89);
+    justify-content:space-between;
 }
 
 .nav-link{

@@ -1,5 +1,5 @@
 @media screen and (max-width: 800px){
-    #nosso-produto .rounded-circle{
+    .nosso-produto .rounded-circle{
         width: 70%;
         height: 100%;
         display:inline;

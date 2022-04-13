@@ -1,27 +1,21 @@
-body, html{
-    height: 100%;
-    width: 100%;
-  }
-.corpo{
+.body{
     font-family: Georgia, 'Times New Roman', 'Roboto Slab', Times, serif;
-    background-color: rgb(254, 184, 89);
 }
 
 .navbar{
     background-color: rgb(254, 184, 89);
-    justify-content:space-between;
 }
 
-/*
 .nav-link{
     color: orange;
 }
-*/
 
-#nosso-produto{
+.logo{
+    margin-left: 10px;
+}
+
+.nosso-produto{
     background: rgba(255, 165, 38, 0.715);
-    display:flex;
-    flex-direction: column;
 }
 
 .margin{
@@ -33,9 +27,9 @@ body, html{
     background: rgba(255, 165, 38, 0.715);
 }
 
-/*.geleia{
+.geleia{
     background: rgba(255, 165, 38, 0.715);
-}*/
+}
 
 .sm-footer{
     background-color: rgb(94, 94, 255);
@@ -52,7 +46,6 @@ body, html{
 
 .fonte-logo{
     font-family: 'Roboto Slab', serif;
-    font-size: 22px;
 }
 
 .card{
@@ -65,8 +58,4 @@ body, html{
 
 .rodape-click{
     margin-bottom: 0;
-}
-
-.card-text .p{
-    display:contents;
 }

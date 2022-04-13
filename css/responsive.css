@@ -2,6 +2,8 @@
     .nosso-produto .rounded-circle{
         width: 70%;
         height: 100%;
+        margin-bottom: 5%;
+        margin-top: 5%;
     }
 
     .navbar{
@@ -10,6 +12,7 @@
 
     .logo{
         justify-content: center;
+        margin-bottom: 5%;
     }
 
     .margin{

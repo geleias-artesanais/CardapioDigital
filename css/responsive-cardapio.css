@@ -36,7 +36,8 @@
         justify-content: space-around;
     }
 
-
-
+    .nosso-produto div{
+        width:90%;
+    }
 
 }

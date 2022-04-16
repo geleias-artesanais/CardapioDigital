@@ -40,4 +40,24 @@
         width:70%;
     }
 
+    .card{
+        width:50%
+    }
+
+    .card img{
+        width:100%;
+    }
+
+    .card-body{
+        background-color: rgb(254, 184, 89);
+        border: none;
+        border-color: none;
+    }
+
+    .card-group{
+        flex-wrap: wrap;
+        display:flex;
+        justify-content:space-between;
+    }
+
 }

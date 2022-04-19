@@ -60,13 +60,9 @@
         justify-content:space-between;
     }
 
-    .span-zero{
-        margin-top: 5%;
-        margin-bottom: 10%;
-    }
-
-    .span-zero a{
+    .geleia a{
         color: black;
+        margin-top: 10%;
         margin-bottom: 10%;
     }
 

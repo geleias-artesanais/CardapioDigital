@@ -60,4 +60,14 @@
         justify-content:space-between;
     }
 
+    .span-zero{
+        margin-top: 5%;
+        margin-bottom: 10%;
+    }
+
+    .span-zero a{
+        color: black;
+        margin-bottom: 10%;
+    }
+
 }

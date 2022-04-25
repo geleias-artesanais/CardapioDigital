@@ -41,7 +41,12 @@
     }
 
     .card{
-        width:50%
+        width:65%; 
+        border-color: black;
+        border:10%;
+        margin-bottom: 5%;
+        margin-top: 5%;
+        
     }
 
     .card img{
@@ -50,8 +55,11 @@
 
     .card-body{
         background-color: rgb(254, 184, 89);
-        border: none;
-        border-color: none;
+        padding:0;
+    }
+
+    .card-header{
+        background-color: rgb(254, 184, 89);
     }
 
     .card-group{
@@ -65,5 +73,22 @@
         margin-top: 10%;
         margin-bottom: 10%;
     }
+
+    .container-social{
+        padding-bottom: 10px;
+        border-top: 60%;
+        border-color: aqua;
+        border-radius: 10%;
+    }
+
+    .pasta-amedoim{
+        display: flex;
+        justify-content:center
+    }
+
+    .card-footer{
+        background-color: rgb(254, 184, 89);
+        border-color: black;
+        }
 
 }

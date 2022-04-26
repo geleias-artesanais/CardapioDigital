@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="bootstrap-lib/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style-cardapio.css">
     <link rel="stylesheet" href="css/responsive-cardapio.css">
+    <script type="text/javascript" src="scripts.js"></script>
+
     <title>Geleia Artesanal</title>
 </head>
 
@@ -33,11 +35,16 @@
 
     <container class="container-geleia">
         <div class="geleia">
-            <h2>Geleias Tradicionais</h2>
+            <h2>Geleias</h2>
             <!-- <a href="home-zero.html">Clique aqui para Geleias Zero Açucar</a> -->
-        
-            <div>
-                <dl>
+
+                <div class="botoes gap-2 d-md-block">
+                    <button class="btn botao" onclick="trocarListaTradicional()" type="button">Geleias Tradicionais</button>
+                    <button class="btn botao" onclick="trocarLista()" type="button">Geleias Zero Açucar</button>
+                  </div>
+
+            <div id="lista-normal">
+                <dl class="lista-on">
                     <ol>
                         <li><dt>Acerola - Peso Liq. 265g</dt>
                     <dd>...........................................................................................R$18,90</dd></li> 
@@ -90,6 +97,25 @@
                 </dl>
             </div>
 
+            <div id="lista-zero" class="lista-off">
+                <dl class="lista-on">
+                    <ol>
+                    <li><dt>Abacaxi Zero Açucar - Peso Liq. 255g</dt></li>
+                    <dd>...........................................................................................R$18,90</dd>
+
+                    <li><dt>Goiaba Zero Açucar - Peso Liq. 250g</dt></li>
+                    <dd>...........................................................................................R$18,90</dd>
+
+                    <li><dt>Maça Zero Açucar - Peso Liq. 250g</dt></li>
+                    <dd>...........................................................................................R$21,90</dd>
+
+                    <li><dt>Uva Zero Açucar  - Peso Liq. 250g</dt></li>
+                    <dd>...........................................................................................R$23,90</dd>
+                    
+                </ol>
+                </dl>
+            </div>
+
             <div class="pasta-amedoim">
                 <div class="card text-center">
                     <div class="card-header">
@@ -122,7 +148,7 @@
                     </div>
                     <div class="col-sm-2">
                         <h5 class="margin">Pedido apenas pelo Whatsapp</h5>
-                        <a href="https://api.whatsapp.com/send?phone=5581988042015&text=Ol%C3%A1,%20tudo%20bem?%20Gostaria de encomendar algumas geleias">
+                        <a href="https://api.whatsapp.com/send?phone=5581988042015&text=Ol%C3%A1,%20tudo%20bem?%20Vi pela unidade: ">
                         <img src="img/logo-whatsapp.png" alt="logo whatsapp" width="35%">
                         </a>
                     </div>

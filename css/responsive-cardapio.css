@@ -1,4 +1,4 @@
-@media screen and (max-width: 650px){
+@media screen and (max-width: 950px){
     html{
         display:flex;
         margin:auto;
@@ -112,6 +112,11 @@
 
     .lista-off{
         display: none;
+    }
+
+    .col-sm-2 {
+        flex: 0,0 auto;
+       width: 20%;
     }
 
 }

@@ -114,9 +114,4 @@
         display: none;
     }
 
-    .col-sm-2 {
-        flex: 0,0 auto;
-       width: 20%;
-    }
-
 }

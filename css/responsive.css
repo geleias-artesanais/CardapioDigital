@@ -37,6 +37,10 @@
         flex-direction:row;
     }
 
+    .card-img-top {
+        width: 50%;
+    }
+
     .div-botao{
         display: flex;
     }

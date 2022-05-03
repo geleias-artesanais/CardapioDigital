@@ -28,8 +28,11 @@
 
 
     .card-body{
-        margin-left: 10px;
         padding:0;
+    }
+
+    .card{
+        background-color:none;
     }
 
     .div-contatos{
@@ -38,7 +41,7 @@
     }
 
     .card-img-top {
-        width: 50%;
+        width: 100%;
     }
 
     .div-botao{
